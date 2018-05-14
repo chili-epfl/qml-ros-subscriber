@@ -7,8 +7,6 @@ import QMLRosSubscriber 1.0
 ApplicationWindow {
     id: window
     visible: true
-    minimumHeight: height
-    minimumWidth: width
 
     Timer {
         running: true
@@ -82,8 +80,8 @@ ApplicationWindow {
             Column{
                 ImageItem {
                     id: imageItem
-                    width: 640
-                    height: 480
+                    width: 1280
+                    height: 960
                 }
             }
         }
