@@ -1,8 +1,8 @@
 qml-ros
 ===================
 
-QML plugin for subscribing to messages from a ROS master. Tested with Qt 5.10.0 on
-the following:
+QML plugin for subscribing to messages from a ROS master. For now only image messages are supported, but it can easily be extended.
+Tested with Qt 5.10.0 on the following:
 
   - Android 6.0.1 (arm-v7) built with SDK API 18 and NDK r10e on ArchLinux host
 
