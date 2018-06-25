@@ -1,5 +1,5 @@
 TEMPLATE = lib
-TARGET = qmlrossubscriberplugin
+TARGET = rossubscriberplugin
 
 CONFIG += qt plugin c++11
 CONFIG -= android_install
@@ -13,15 +13,15 @@ QMAKE_CXXFLAGS += -O3
 QMAKE_CXXFLAGS_RELEASE += -O3
 
 TARGET = $$qtLibraryTarget($$TARGET)
-uri = QMLRosSubscriber
+uri = ch.epfl.chili
 
 HEADERS += \
-    src/QMLRosSubscriberPlugin.h \
+    src/RosSubscriberPlugin.h \
     src/RosSubscriber.h \
     src/ImageItem.h
 
 SOURCES += \
-    src/QMLRosSubscriberPlugin.cpp \
+    src/RosSubscriberPlugin.cpp \
     src/RosSubscriber.cpp \
     src/ImageItem.cpp
 

@@ -16,7 +16,7 @@
  */
 
 /**
- * @file QMLRosSubscriber.cpp
+ * @file RosSubscriber.cpp
  * @brief QML wrapper source for RosSubscriber
  * @author Florian Zimmermann
  * @date 2018-03-26

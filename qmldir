@@ -1,2 +1,2 @@
-module QMLRosSubscriber
-plugin qmlrossubscriberplugin
+module ch.epfl.chili
+plugin rossubscriberplugin
